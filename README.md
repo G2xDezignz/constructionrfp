@@ -1,0 +1,7 @@
+A custom web app for created for a construction company to create projects, including plans and specs, and allow for subcontractors and/or suppliers to make bids on said projects.
+
+The app has two different access points, one for the company and another for subcontractors/suppliers. The company is responsible for creating projects, uploadings plans and specifications for the projects, and reviewing any requests for proposals made by registered subcontractors/suppliers. Anyone can view summary information on open and upcoming projects, but only registered subcontractors/suppliers can view the plans/specs and submit bids. 
+
+There are three models in the _temp folder that highlights the programming aspects. The RFP_PlanRoom.pdf represents the default page; this page shows a summary of all of the open and/or upcoming projects. The RFP_SubContractor.pdf is an outline of the subcontractor/supplier process; a new subcontractor can create their own profile which allows them to see details of the project(s) and to submit requests for proposals. The RFP_Admin.pdf is an outline of the administrative process where the company staff can create projects, add necessary plans/specs, and process requests for proposals submitted for projects.
+
+The app was developed with PHP and MySQL. A start SQL file (empty_DB.sql) is provided in the _temp folder to create a new, basic database with a default user/password "admin/admin". 
