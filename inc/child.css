@@ -1,0 +1,31 @@
+#content_layout { 
+	margin-bottom: 35px; 
+	margin-top: 45px; margin-top: 35px\0/IE9; 
+	line-height: 1.7em; 
+	color: #252525;
+	}
+#content_layout div { float: left; }
+#content_layout #left, #content_layout #right { width: 225px; }
+#content_layout #leftgallery, #content_layout #rightgallery { width: 160px; }
+#content_layout #maincontent { width: 505px; }
+#content_layout #maincontentgallery { width: /*605px*/555px; padding-right:15px; }
+#content_layout #maincontent-rspan { width: 680px; margin-top:-25px; }
+
+#maincontent { margin-bottom: 35px\0/IE9; }
+
+ul.pgnav { margin-left: 0px; margin-left: -35px\0/IE9; margin-right: 15px; list-style: none; }
+ul.pgnav li { display: block; margin: 5px auto;}
+ul.pgnav li a, ul.pgnav li a:visited { 
+	display: block; color: #252525; background: #ccc; 
+	margin: 5px; padding: 3px 15px 3px 15px; 
+	text-decoration: none; 
+	border-bottom: 2px solid #999; 
+	}
+ul.pgnav li a:hover, ul.pgnav li a.here { background: #333; color: #fff; }
+
+div.iStyle { border-top: 1px dotted #ccc; margin-top: .8em; position:inherit; width:100%; }
+div.iStyle h3 { font-size: 13px; margin-bottom: -.5em; margin-left:25px; }
+#jeff.iStyle h3, #monica.iStyle h3, #will.iStyle h3 { margin-left:auto; }
+img.iStyle { float:left; border: 5px rgb(225,225,225) solid; margin: 1.1em 20px 6px 0; }
+div.show { color:#666; position:absolute; margin-top:-15px; cursor:pointer; }
+span.wip { font-size:.9em; color:#333; font-style:oblique; }

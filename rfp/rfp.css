@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+#content_layout.allspan { width: /*743px*/600px; margin: 35px auto; }
+
+/* RFP Summary layout */
+.locale table, #specs table, #plist table, #specs2 table, #proposals table, #ulist table { 
+	width: 100%; font: 12px Arial, Helvetica, sans-serif; background: #999; 
+}
+.locale caption, #plist caption, #ptlist caption, #ulist caption, #elist caption { text-align: left; font-size: 15px; font-weight: bold; }
+.locale th, #specs th, #plist th, #specs2 th, #proposals th, #ulist th { text-align: left; vertical-align: bottom; background: #ccc; }
+.locale td, #specs td, #plist td, #specs2 td, #proposals td, #ulist td { vertical-align: top; text-align: left; background: #fff; }
+.locale td.t1 { width: 30%; }
+.locale td.t2 { width: 38%; }
+.locale td.t3 { width: 20%; }
+.locale td.t4 { width: 12%; }
+#specs td.t0 { width: 1%; }
+#specs td.t1 { width: 10%; }
+#specs td.t2 { width: 54%; }
+#specs td.t3 { width: 20%; }
+#specs td.t4 { width: 15%; }
+#plist td.t1 { width: 40%; }
+#plist td.t2 { width: 30%; }
+#plist td.t3 { width: 20%; text-align: center; }
+#plist td.t4 { width: 10%; text-align: center; }
+#specs2 td.t1 { width: 10%; }
+#specs2 td.t2 { width: 47%; }
+#specs2 td.t3 { width: 23%; }
+#specs2 td.t4 { width: 13%; }
+#specs2 td.t5 { width: 7%; text-align: center; }
+#proposals td.t1 { width: 20%; }
+#proposals td.t2 { width: 46%; }
+#proposals td.t3 { width: 12%; white-space: nowrap; }
+#proposals td.t4 { width: 12%; white-space: nowrap; }
+#proposals td.t5 { width: 10%; text-align: center; white-space: nowrap; }
+.locale td a, #specs td a { text-decoration: none; font-weight: bold; }
+.locale td a:hover, #specs td a:hover { text-decoration: underline; }
+
+/* vt_* layout */
+table#ptlist { width: 65%; }
+#ptlist td.t1 { width: 75%; }
+#ptlist td.t2 { width: 25%; }
+
+/* User Admin layout */
+table#ulist { width: 98%; }
+#ulist td.t1 { width: 40%; }
+#ulist td.t2 { width: 20%; }
+#ulist td.t3 { width: 20%; }
+#ulist td.t4 { width: 20%; white-space:nowrap; text-align:center; }
+table#elist { background: transparent; width: auto; }
+
+
+/* RFP Detail & Form layout */
+#rfp #pinfo { margin-top: -.9em; font-weight: bold; }
+fieldset { padding: 5px 15px; border: 1px solid rgb(190,190,190); }
+legend { font-size: 14px; font-weight: bold; padding: 0 10px 0 5px; }
+form table, table#vproject { margin-top: 15px; }
+form table, form p, table#vproject { margin-left: 30px; }
+table input, input.type, table textarea { font: 12px Arial, Helvetica, sans-serif; 
+	background: #fff; border: 1px solid rgb(190,190,190); 
+	/*padding: 2px;*/ 
+}
+input { vertical-align: bottom; }
+input.btn, a.btn { font: 12px Arial, Helvetica, sans-serif; }
+a.btn { text-decoration: none; }
+input.btn, a.btn { 
+	color: #000; background: rgb(230,230,230); 
+	padding: 1px 5px; margin: 2px;
+	border: 1px solid #666; 
+}
+input.btn:hover, a.btn:hover, input#submit.here { background: #06F; color: #fff; border-color: #000; }
+#specs2 td.t5 a.btn, #plist td.t4 a.btn, #proposals td.t5 a.btn, #ptlist a.btn, #ulist a.btn { padding: 1px 5px; }
+input.radio { border: 0; }
+p.btns .btn { vertical-align: middle; }
+
+form td.lbl, table#vproject td.lbl { text-align: right; }
+.note { font-size: 11px; font-style: oblique; }
+.warn { text-align: center; font: 11px Verdana, Geneva, sans-serif; color: #f00; width: 100%; margin: 4em auto 6em auto; border: 1px solid #999; border-left:0; border-right:0; padding: 5px 0; }
+table#vproject td.lbl { white-space:nowrap; }
+
+/* Admin List Nav */
+#alist { margin-bottom: 50px; }
+#alist ul { margin: 0; padding: 0; list-style-image: none; }
+#alist ul li { float: left; display: block; }
+#alist a { 
+	text-decoration: none; display: block; margin: 2px; padding: 3px 5px; border: 1px solid #333; 
+	color: #000; background: rgb(230,230,230);
+}
+#alist a.here { background: #06F; color: rgb(230,230,230); border-color: #333; }
+#alist a:hover { background: #06F; color: #fff; border-color: #000; }
+
+/* Misc */
+#admnav { text-align: right; }
+select#pstate { width: 95px; }
+.req { font-weight: bold; color: #F00; }
+.err { font: 11px Arial, Helvetica, sans-serif; color: #f00; }
+.err p { margin-bottom: -.8em; }
+.err ul { margin-left: 15px; }
+input.file { font: 11px Arial, Helvetica, sans-serif; }
+p.thx { font-style: oblique; }
+#maincontent-rspan #crumbs { float: right; }
+#crumbs p { font-size: 11px; text-align: right; margin: -1em 0; }
+
+/*#topslide.rfp { background:transparent url(/img/slidedrop2.jpg) no-repeat center bottom; height:241px; border-bottom:0; }*/
+#topslide.rfp p { background:transparent url(/img/planroom_lead.jpg) no-repeat; height:230px; }
+#topslide.rfp p span { visibility: hidden; }
+
+input.chkbx { border:0; }
+
+#maincontent-rspan, #content_layout { min-height:450px; }
+
+#content { min-height:675px; }
+#content h2 { margin-top:40px; }
+
+#psview input { vertical-align:baseline; margin-right:15px; }
+#psview .ptstatus { font-weight:bold; }
+#psview, #psfilter { float:left; }

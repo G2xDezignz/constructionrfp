@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body {
+	margin: 0; padding: 0;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #fff;
+}
+
+#layout { margin: 0; padding: 0; }
+
+a { text-decoration: none; font-weight: 700; }
+a:link { color: #06c; }
+a:visited { color: #036; }
+a:hover { text-decoration: underline; }
+
+
+/* Header */
+#head { 
+	width: 100%; margin: 0px;
+}
+#head h1 { 
+	width: 992px; margin: 0 auto;
+}
+#head h1 a { background:transparent url(rfp_logo.png) left top no-repeat; display: block; width: /*338px*/350px; height: /*80px*/96px; padding-top: 20px; }
+#head h1 a span { display: none; }
+/*#head h1 a:hover { text-decoration:none; color:#036; }*/
+
+
+/* Slideshow */
+#slideshow { width: 983px; height: 445px; margin: 0 auto; /*margin: 0px auto; margin-top: -25px\0/IE9*/; background: #999 url(blueprint_slide.jpg) no-repeat; color: #fff;  }
+#slideshow p { text-align: center; margin: 25px auto; padding-top: 45px\0/IE9; }
+
+
+/* Content */
+#content { width: 961px; margin: 28px auto auto auto; }
+
+/* Top Slide */
+#topslide { width:961px; height:/*241px*/230px; background:#ccc url(blueprint_slide.jpg) no-repeat left top; color: #000; margin-top:-28px; }
+#topslide p { text-align: center; margin: 25px auto; padding-top: 45px\0/IE9; }
+
+/* Navigation */
+#nav h2 { display: none; }
+#nav ul { margin: 0; padding: 0; list-style-image: none; }
+#nav li { float: left; display: block; margin: 0; padding: 0; }
+
+#mainnav { width: 100%; position: absolute; top: 103px; left: 0; z-index:200; }
+#mainnav #mnav { width: 983px; margin: 0 auto; }
+#mainnav li {
+	margin: -4px 18px 0px 0px; padding: 8px 18px 9px 12px;
+	font-weight: bold;
+	display: block; 
+}
+#mainnav a {
+	text-decoration: none; font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px; font-variant: small-caps;
+	 color: #fff; display: block;
+	 /*margin: -4px 18px 0px 0px; padding: 8px 18px 8px 12px;
+	font-weight: bold;*/
+}
+#mainnav li:hover { 
+	background: #fff; color: #000;
+}
+#mainnav li:hover a { color: #000; }
+
+#mainnav li .ndesc { 
+	display: block;
+	/*margin: 26px auto 8px -50px;*/
+	margin: 9px auto 8px -12px/*\0/IE9*/;
+	position: absolute;
+	left: -9999em; /* Hides the drop down */
+	text-align: left;
+	padding: 5px 25px 15px 15px;
+	width: 280px;
+	background: #fff; color: #333;
+	font-weight: normal;
+}
+#mainnav li:hover .ndesc { left: auto; top: auto; }
+/*
+#mainnav li:hover .li_abt { *margin-left: -66px; }
+#mainnav li:hover .li_proj { *margin-left: -100px; }
+#mainnav li:hover .li_prop { *margin-left: -103px; }
+#mainnav li:hover .li_svcs { *margin-left: -88px; }
+*/
+#mainnav .ndesc p.hdr { font-weight: 700; color: #069; }
+#mainnav .ndesc p.p { margin-left: 15px; }
+#mainnav .ndesc p.bull { margin-left: 25px; }
+#mainnav .ndesc a { font-size: 11px; font-variant: normal; font-weight: normal; color: #06c; }
+#mainnav .ndesc a:visited { color: #036; }
+#mainnav .ndesc a:hover { text-decoration: underline; }
+
+#subnav { width:945px; margin: 0 auto; padding: 0; clear: both; }
+#subnav #snav { position: absolute; top: 20px; margin-left:/*590px*/730px; line-height: /*16px;*/ 8px; 
+	background: #333 /*url(/img/bg_header135d_sm.gif) repeat*/; width:/*370px*/230px;
+}
+#subnav a {
+	text-decoration: none;
+	display: block; margin: 0px 4px 0px 0px; padding: 6px;
+	color: #fff; 
+}
+#subnav .bnav a { padding: 9px 10px 7px 10px; }
+#subnav .bnav a:hover { background: #ccc; color: #000; }
+#subnav .addthis img { /*margin: 2px auto -2px auto;*/ margin: -2px auto -2px auto; }
+
+
+/* Footer */
+#foot { clear: both; width: 961px; margin: 50px auto 65px auto; *padding-top: 15px; border-top: 1px solid #999; }
+#foot p.logo { float: right; margin-top: -33px; *margin-top: -40px; margin-top: -30px\0/IE9; }
+#foot p.fam { font-size: 11px; margin-top: -1em; margin-top: -1em\0/IE9; margin-bottom: 2em; margin-bottom: 3em\0/IE9; }
+
+a.hide, a:link.hide, a:visited.hide { color: #fff; text-decoration: none; }
+a:hover.hide { color: #999; }
+
+/* Misc */
+#topslide { /*background:transparent url(/img/slidedrop2.jpg) no-repeat center bottom; height:241px;*/
+	border-bottom:1px solid #ccc; }
+#maincontent { min-height:400px; }

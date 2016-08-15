@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAdmLvl" value="name:admLevel;datatype:int,name:admType;datatype:string" />
+</info>
